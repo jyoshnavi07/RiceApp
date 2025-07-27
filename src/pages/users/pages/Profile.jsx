@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import PrimaryBtn from '../../../components/common/Primarybtn';
+import PrimaryBtn from '../../../components/common/PrimaryBtn';
 import SecondaryBtn from '../../../components/common/SecondaryBtn';
 import Mybtn from '../../../components/common/Mybtn';
 import Headings from '../../../components/common/Headings';
