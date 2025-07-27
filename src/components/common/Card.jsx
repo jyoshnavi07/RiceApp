@@ -21,9 +21,6 @@ const Card = ({ name, logo, description }) => {
       <div className="card-body d-flex flex-column">
         <h5 className="fw-bold text-success mt-3">{name}</h5>
         <p className="text-muted small flex-grow-1">{description}</p>
-        {/* <a href="#" className="btn btn-warning text-white mt-auto fw-semibold">
-          View More
-        </a> */}
       </div>
     </div>
   );
