@@ -5,12 +5,12 @@ import Navbar from "../../../components/common/Navbar";
 import Footer from "../../../components/common/Footer";
 import Headings from "../../../components/common/Headings";
 
-import bannerImg from "/src/assets/contactbanner3.jpg";
-import farmImg from "/src/assets/contactbanner3.jpg";
-import packImg from "/src/assets/contactbanner3.jpg";
-import deliveryImg from "/src/assets/contactbanner3.jpg";
-import qualityImg from "/src/assets/contactbanner3.jpg";
-import missionImg from "/src/assets/contactbanner3.jpg";
+import bannerImg from "/assets/contactbanner3.jpg";
+import farmImg from "/assets/contactbanner3.jpg";
+import packImg from "/assets/contactbanner3.jpg";
+import deliveryImg from "/assets/contactbanner3.jpg";
+import qualityImg from "/assets/contactbanner3.jpg";
+import missionImg from "/assets/contactbanner3.jpg";
 
 const Aboutus = () => {
   return (
