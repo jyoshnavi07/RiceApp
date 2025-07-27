@@ -9,31 +9,31 @@ import Headings from '../../../components/common/Headings';
 const brands = [
   {
     name: 'India Gate',
-    logo: './src/assets/img6.jpg',
+    logo: './assets/img6.jpg',
     description:
       'India Gate is a symbol of premium quality and unmatched taste. Known for its extra-long grains, rich aroma, and natural aging process, this brand is ideal for luxurious dishes like biryani and pulao.',
   },
   {
     name: 'Daawat',
-    logo: './src/assets/img8.jpg',
+    logo: './assets/img8.jpg',
     description:
       'Daawat offers the authentic taste of traditional Indian basmati. Its aged grains are soft yet firm, with a fragrant aroma that elevates every meal.',
   },
   {
     name: 'Fortune',
-    logo: './src/assets/img3.jpg',
+    logo: './assets/img3.jpg',
     description:
       'Fortune rice is perfect for everyday cooking. With its non-sticky grains, quick cooking time, and affordable quality, it’s a go-to choice for daily meals.',
   },
   {
     name: 'Kohinoor',
-    logo: './src/assets/img4.jpg',
+    logo: './assets/img4.jpg',
     description:
       'Kohinoor brings the royal taste of heritage basmati. Naturally aged and carefully selected, its rice grains are long, slender, and aromatic.',
   },
   {
     name: 'Lal Qilla',
-    logo: './src/assets/img5.jpg',
+    logo: './assets/img5.jpg',
     description:
       'Lal Qilla rice is celebrated for its royal basmati quality and superior grain strength. It turns every meal into a royal feast.',
   },
@@ -100,7 +100,7 @@ const Home = () => {
         {/* Hero Section */}
         <div className="container-fluid px-0 mb-5">
           <div id="heroCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
-            <Headings title='Offers'/>
+            <Headings title=' Our Offers'/>
             <div className="carousel-inner">
               {offers.map((item, index) => (
                 <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={item.id}>

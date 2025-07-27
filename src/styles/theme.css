@@ -115,7 +115,7 @@ a{
 /* footer stylings */
 .footer{
     min-height: 400px;
-    background-image: url('/src/assets/footerbg.avif');
+    background-image: url('/assets/footerbg.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -148,7 +148,7 @@ a{
 
 /* contact us styling */
 .contactus_banner {
-    background-image: url('/src/assets/contactus.png');
+    background-image: url('/assets/contactus.png');
     background-size: cover;          /* Makes image cover entire area */
     background-position: center;     /* Centers the image */
     background-repeat: no-repeat;    

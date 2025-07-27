@@ -9,17 +9,17 @@ import Headings from '../../../components/common/Headings';
 const carouselPosts = [
   {
     title: 'How We Process Premium Basmati',
-    image: '/src/assets/img3.jpg',
+    image: '/assets/img3.jpg',
     summary: 'Step-by-step insight into how our rice is aged and packaged.',
   },
   {
     title: 'The Importance of Organic Rice',
-    image: '/src/assets/img3.jpg',
+    image: '/assets/img3.jpg',
     summary: 'Why organic farming is the future of healthy eating.',
   },
   {
     title: 'Customer Story: From Farm to Family',
-    image: '/src/assets/img3.jpg',
+    image: '/assets/img3.jpg',
     summary: 'Meet the families that trust The Quality Rice every day.',
   },
 ];
@@ -34,13 +34,13 @@ const blogGrid = [
   },
   {
     title: 'Why Aged Rice is Better',
-    image: '/src/assets/img3.jpg',
+    image: '/assets/img3.jpg',
     desc: 'Understand how aging improves aroma and quality.',
     author: 'Rice Scientist',
   },
   {
     title: 'Quick Recipes With Biryani Rice',
-    image: '/src/assets/img3.jpg',
+    image: '/assets/img3.jpg',
     desc: 'Make the most flavorful dishes in under 30 minutes!',
     author: 'Chef Anil',
   },
@@ -50,19 +50,19 @@ const blogGrid = [
 const blogSections = [
   {
     title: 'The Journey of a Grain',
-    image: '/src/assets/img3.jpg',
+    image: '/assets/img3.jpg',
     content:
       'From lush fields to your plate, learn how each grain of rice is handpicked, aged, and processed with care by The Quality Rice.',
   },
   {
     title: 'Our Farmers, Our Pride',
-    image: '/src/assets/img3.jpg',
+    image: '/assets/img3.jpg',
     content:
       'We partner with over 200+ farmers to ensure our rice remains pure, organic, and sustainable. This blog features real farmer stories.',
   },
   {
     title: 'Customer Spotlight: Rice Recipes from Families',
-    image: '/src/assets/img3.jpg',
+    image: '/assets/img3.jpg',
     content:
       'We reached out to customers for their favorite recipes using The Quality Rice. Discover heartwarming stories and delicious meals.',
   },
@@ -75,7 +75,7 @@ const Blog = () => {
         {/* banner section start */}
         <div className="container-fluid d-flex flex-column justify-content-center align-items-center text-center"
           style={{
-            backgroundImage: "url('/src/assets/img1.jpg')",
+            backgroundImage: "url('/assets/img1.jpg')",
             height: '400px',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
