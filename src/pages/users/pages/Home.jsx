@@ -47,7 +47,7 @@ const Home = () => {
       <div
         className="container-fluid hero-section d-flex align-items-start justify-content-end text-center"
         style={{
-          backgroundImage: "url('/src/assets/banner.png')",
+          backgroundImage: "url('/assets/banner.png')",
           height: '500px',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
